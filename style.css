@@ -1,0 +1,34 @@
+body{
+    margin: 0px;
+}
+
+body > div{
+    margin: 0px;
+    background: black;
+    color: white;
+    font-size: 60px;
+    font-family: "Courier new";
+    border: 3px solid black;
+    height: 50vh;
+    width: 100vw;
+    transition: all 1s;
+}
+
+body > div:hover{
+    background: white;
+    border: 3px solid lightblue;
+}
+
+body > div > a{
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    color: white;
+}
+
+body > div > a:hover{
+    color: black;
+}
